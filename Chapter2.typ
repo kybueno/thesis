@@ -67,7 +67,7 @@ El sistema permite al usuario indexar documentos PDF que son segmentados en frag
 == Requisitos de software
 
 === Requisitos funcionales 
-
+// TODO: karen cambiar HU por RF
 - *HU1*: Enviar consultas
 - *HU2*: Enviar archivos PDF
 - *HU3*: Generar respuestas
@@ -106,7 +106,7 @@ En este capítulo se definen los requisitos funcionales y no funcionales del sis
   user: [Investigador],
   priority: [Alta], risk: [Bajo],
   weeks: 1, iterations: 1,
-  responsable: [Joaquin Enrique Rivas Sánchez],
+  responsable: [Karen Yoselin Bueno Aceo],
   description: [El usuario debe poder escribir y enviar consultas al sistema.], 
   picture: "Images/hu-enviar-consulta.png"
 )
@@ -115,7 +115,7 @@ En este capítulo se definen los requisitos funcionales y no funcionales del sis
   user: [Investigador],
   priority: [Alta], risk: [Bajo],
   weeks: 1, iterations: 1,
-  responsable: [Joaquin Enrique Rivas Sánchez],
+  responsable: [Karen Yoselin Bueno Aceo],
   description: [El usuario debe poder enviar archivos PDF al sistema para su procesamiento de hasta 300 megabytes.], 
   observations: [En caso de intentar enviar otros formatos de archivo, se mostrara un mensaje de advertencia.],
   picture: "Images/hu-enviar-pdf.png",
@@ -124,7 +124,7 @@ En este capítulo se definen los requisitos funcionales y no funcionales del sis
 #table_user_story(number: 3, name: [Generar respuestas],
   priority: [Alta], risk: [Medio],
   weeks: 2, iterations: 1,
-  responsable: [Joaquin Enrique Rivas Sánchez],
+  responsable: [Karen Yoselin Bueno Aceo],
   description: [El sistema debe generar respuestas basadas en las consultas realizadas por el usuario.], 
   observations: [En caso de fallar se muestra un mensaje de error.]
 )
@@ -133,14 +133,14 @@ En este capítulo se definen los requisitos funcionales y no funcionales del sis
   priority: [Alta], risk: [Alto],
   user: [Investigador],
   weeks: 3, iterations: 1,
-  responsable: [Joaquin Enrique Rivas Sánchez],
+  responsable: [Karen Yoselin Bueno Aceo],
   description: [El sistema debe procesar los archivos enviados y almacenar la información extraída.], 
 )
 
 #table_user_story(number: 5, name: [Buscar documentos relevantes],
   priority: [Alta], risk: [Alto],
   weeks: 2, iterations: 1,
-  responsable: [Joaquin Enrique Rivas Sánchez],
+  responsable: [Karen Yoselin Bueno Aceo],
   description: [El sistema debe identificar y recuperar documentos relevantes a la consulta realizada.], 
   observations: [En caso de no encontrar documentos relevantes no devuelve nada.]
 )
@@ -149,7 +149,7 @@ En este capítulo se definen los requisitos funcionales y no funcionales del sis
   user: [Investigador],
   priority: [Media], risk: [Bajo],
   weeks: 1, iterations: 2,
-  responsable: [Joaquin Enrique Rivas Sánchez],
+  responsable: [Karen Yoselin Bueno Aceo],
   description: [El sistema debe mostrar una lista de documentos con sus respectivas puntuaciones de recuperación.], 
   observations: [En caso de no recibir documentos recuperados no se mostrara nada.],
   picture: "Images/hu-mostrar-chunks.png"
@@ -159,7 +159,7 @@ En este capítulo se definen los requisitos funcionales y no funcionales del sis
   user: [Investigador],
   priority: [Media], risk: [Bajo],
   weeks: 1, iterations: 2,
-  responsable: [Joaquin Enrique Rivas Sánchez],
+  responsable: [Karen Yoselin Bueno Aceo],
   description: [El usuario debe poder solicitar al sistema que regenere una respuesta si la inicial no satisface sus necesidades.], 
   picture: "Images/hu-regenerate.png"
 )
@@ -168,7 +168,7 @@ En este capítulo se definen los requisitos funcionales y no funcionales del sis
   priority: [Media], risk: [Bajo],
   user: [Investigador],
   weeks: 1, iterations: 2,
-  responsable: [Joaquin Enrique Rivas Sánchez],
+  responsable: [Karen Yoselin Bueno Aceo],
   description: [El usuario debe poder proporcionar retroalimentación sobre las respuestas del sistema. Los criterios para retroalimentar son los siguientes: Me gusta, No me gusta, Alucinación, Inapropiado, Dañino.], 
   picture: "Images/hu-retroalimentacion.png"
 )
@@ -177,7 +177,7 @@ En este capítulo se definen los requisitos funcionales y no funcionales del sis
   user: [Investigador],
   priority: [Media], risk: [Bajo],
   weeks: 1, iterations: 2,
-  responsable: [Joaquin Enrique Rivas Sánchez],
+  responsable: [Karen Yoselin Bueno Aceo],
   description: [El sistema debe permitir la edición de consultas y generar nuevas respuestas basadas en los cambios.], 
   picture: "Images/hu-editar-consulta.png"
 )
@@ -186,7 +186,7 @@ En este capítulo se definen los requisitos funcionales y no funcionales del sis
   user: [Investigador],
   priority: [Baja], risk: [Medio],
   weeks: 2, iterations: 2,
-  responsable: [Joaquin Enrique Rivas Sánchez],
+  responsable: [Karen Yoselin Bueno Aceo],
   description: [El usuario debe poder acceder a opciones de configuración para modificar parámetros específicos.],
   observations: [Los parámetros incluyen: Temperatura del modelo, Máximo de tokens de salida, Penalización de frecuencia y de presencia],
   picture: "Images/hu-model-params.png"
@@ -196,7 +196,7 @@ En este capítulo se definen los requisitos funcionales y no funcionales del sis
   user: [Investigador],
   priority: [Media], risk: [Bajo],
   weeks: 1, iterations: 2,
-  responsable: [Joaquin Enrique Rivas Sánchez],
+  responsable: [Karen Yoselin Bueno Aceo],
   description: [El usuario debe poder iniciar múltiples conversaciones independientes para gestionar diferentes temas o consultas.], 
   observations: [Cada conversación maneja su propio historial y contexto.],
   picture: "Images/hu-nuevos-chats.png"
@@ -206,7 +206,7 @@ En este capítulo se definen los requisitos funcionales y no funcionales del sis
   user: [Investigador],
   priority: [Baja], risk: [Bajo],
   weeks: 1, iterations: 2,
-  responsable: [Joaquin Enrique Rivas Sánchez],
+  responsable: [Karen Yoselin Bueno Aceo],
   description: [El usuario debe poder limpiar el historial del chat para comenzar una nueva conversación.], 
   picture: "Images/hu-limpiar-chat.png"
 )

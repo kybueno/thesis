@@ -3,13 +3,16 @@
 
 = Fundamentación Teórica <chapter1>
 
-En el presente capítulo se describen los conceptos relevantes que conforman el marco teórico relacionado con la investigación. También se detallan las herramientas, metodología y tecnologías que serán utilizadas para el proceso de desarrollo del software.
+Este apartado establece las bases conceptuales que sustentan el estudio, integrando principios teóricos clave para analizar la problemática abordada. Se desarrolla un marco de referencia que conecta los principales enfoques y modelos relacionados con el tema, facilitando una comprensión integral del mismo.
 
-== Modelos de Lenguaje de Gran Tamaño (LLM)
+Adicionalmente, se lleva a cabo una revisión crítica de sistemas y soluciones análogas implementadas en contextos similares, identificando buenas prácticas, limitaciones y oportunidades de mejora. Asimismo, se evalúan las tecnologías y herramientas más relevantes en el ámbito de estudio, justificando su selección en función de los objetivos planteados.
 
-// ¿Qué es un modelo de Aprendizaje Automático?
+Finalmente, se detalla la metodología empleada en la investigación, explicando el enfoque, las técnicas de recolección y análisis de datos, así como los criterios de validación utilizados para garantizar la rigurosidad del proceso investigativo. 
 
-Un *modelo de aprendizaje automático* es un sistema computacional diseñado para aprender patrones y relaciones a partir de datos sin una programación explícita para cada tarea. Utiliza algoritmos estadísticos y técnicas de optimización para ajustar sus parámetros, permitiendo realizar predicciones o tomar decisiones basadas en la experiencia adquirida. Entre las categorías más comunes se encuentran el aprendizaje supervisado, el no supervisado y el aprendizaje por refuerzo. En el aprendizaje supervisado, el modelo es entrenado con datos etiquetados, es decir, cada entrada se encuentra asociada a una salida esperada. Este enfoque es ampliamente utilizado en tareas como la clasificación de texto, el reconocimiento de imágenes y la predicción de series temporales, ya que permite a los modelos aprender patrones a partir de ejemplos concretos. Por otro lado, en el aprendizaje no supervisado, el modelo trabaja con datos no etiquetados y debe identificar patrones o estructuras ocultas en los datos por sí mismo. Se emplea en problemas como la agrupación (clustering), la reducción de dimensionalidad y la detección de anomalías. Finalmente, el aprendizaje por refuerzo se basa en un sistema de recompensas en el que un agente interactúa con un entorno y aprende a tomar decisiones óptimas mediante prueba y error. Este enfoque ha demostrado ser particularmente efectivo en aplicaciones como el control de robots, la optimización de procesos y los juegos, donde el modelo mejora progresivamente su desempeño en función de la retroalimentación recibida @Goodfellow-et-al-2016.
+
+== Recursos Humanos (RRHH)
+
+El Recurso Humano es el principal activo de toda organización. El éxito de las organizaciones modernas en este mundo globalizado se debe a su alto grado de competitividad alcanzado. Este resultado ha sido posible gracias a la integración efectiva y eficiente de su personal, lo que le ha permitido llevar a cabo estrategias y conseguir sus metas. No hay ninguna duda que la piedra angular y esencia del desarrollo organizacional es el factor humano. Sin embargo, para muchos administradores esta idea, a pesar de que la pronuncian muy a menudo no se traduce en la práctica en hechos que demuestren lo que pregonan @.
 
 #figure(
     diagram(

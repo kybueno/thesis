@@ -8,7 +8,7 @@
     footer: context {
       line(length: 100%, stroke: 0.5pt)
         text[
-          Joaquin Rivas Sánchez 
+          Karen Yoselin Bueno Aceo
           #h(1fr) 
         #counter(page).display("1")
           ] 
@@ -69,12 +69,12 @@
   body,
 ) = {  
   // Metadata -----------------------------------------------------------------------
-  set text(lang: lang)
+  set text(lang: lang,font: "Arial")
   set document(title: title, author: authors, description: abstract, keywords: keywords)
   
   // Document Style -----------------------------------------------------------------
   set text(size: 12pt)
-  show raw: set text(font: ("Times New Roman"), size: 9pt)
+  show raw: set text(font: "Arial", size: 12pt)
   set page(
     paper: "a4",
     margin: (bottom: 1.75cm, top: 2cm),
@@ -109,7 +109,7 @@
     kind: table
   ): set figure.caption(position: top)
   // set size and header-color
-  show table: set text(size: 9pt, font: "Times New Roman")
+  show table: set text(size: 12pt, font: "Arial")
   set table(
     fill: (x, y) => if y == 0 { color.rgb(204, 204, 255) },
   )
@@ -161,7 +161,7 @@
     text[#acknowledgments]
   }
 
-  // Firms -----------------------------------------------------------------
+  // Signatures -----------------------------------------------------------------
   {
     set page()
     heading(numbering: none, outlined: false)[Declaración de autoría]
@@ -191,7 +191,7 @@
         gutter: 3cm,
         align(center)[
           #line(length: 7cm)
-          MSc. Angel Alberto Vazquez Sánchez \
+          MSc. Mi jefe \
           Tutor
         ],
         align(center)[

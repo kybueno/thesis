@@ -5,14 +5,13 @@
   watermark: [],
 
   lang: "es",
-  title: [Desarrollo de una herramienta basada en LLM y RAG para asistir el análisis de artículos científicos],
-  faculty: [FACULTAD DE TECNOLOGÍAS INTERACTIVAS],
-  authors: ("Joaquin Enrique Rivas Sánchez       "),
-  advisors: ("Msc. Angel Alberto Vazquez Sánchez", 
-             "Msc. Lisset Salazar Gómez   "),
+  title: [Sistema para la Gestión de Recursos Humanos en la Dirección General de Tecnología de la Universidad de las Ciencias Informáticas],
+  faculty: [Facultad de Tecnologías Libres],
+  authors: ("Karen Yoselin Bueno Aceo"),
+  advisors: ("MSc. Lester",""),
 
   dedication: [
-    _Le dedico esta tesis a mi Cleo, la perrita mas unica que jamas existirá, Aunque ya no estés, siempre pensaré en ti._
+    _Dedico este trabajo a mí, por mi esfuerzo desde mis primeros años en este mundo_
   ],
   acknowledgments: [
     Le doy gracias a mis padres sin los cuales no estaría vivo en primer lugar, por siempre estar ahi para mi cuando los necesite, por siempre apoyarme sin pedir nada a cambio, por impulsarme a conseguir lo que quiero, y por siempre creer en mi.
@@ -56,7 +55,7 @@
 // TODO: fix orthography and grammar
 // TODO: update template
 
-#include "Introduction.typ"
+#include "/content/intro/introduction.typ"
 #include "Chapter1.typ"
 #include "Chapter2.typ"
 #include "Chapter3.typ"
